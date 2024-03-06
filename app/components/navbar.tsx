@@ -35,13 +35,13 @@ const Navbar = () => {
                     isOpenMenu &&
                     <nav className='w-full m-10 bg-slate-100 flex flex-col items-center gap-32 p-10 rounded-md'>
                         <div className="flex flex-col items-center gap-10">
-                            <Link href='/tecnologias' className={`${pathname === '/tecnologias' ? 'text-slate-700 font-bold text-lg' : ''}`} >
+                            <Link onClick={() => setIsOpenMenu(false)} href='/tecnologias' className={`${pathname === '/tecnologias' ? 'text-slate-700 font-bold text-lg' : ''}`} >
                                 Tecnologias
                             </Link>
-                            <Link href='/' className={`${pathname === '/' ? 'text-slate-700 font-bold text-lg' : ''}`}>
+                            <Link onClick={() => setIsOpenMenu(false)} href='/' className={`${pathname === '/' ? 'text-slate-700 font-bold text-lg' : ''}`}>
                                 Bem-vindo
                             </Link>
-                            <Link href='/projetos' className={`${pathname === '/projetos' ? 'text-slate-700 font-bold text-lg' : ''}`}>
+                            <Link onClick={() => setIsOpenMenu(false)} href='/projetos' className={`${pathname === '/projetos' ? 'text-slate-700 font-bold text-lg' : ''}`}>
                                 Projetos
                             </Link>
                         </div>

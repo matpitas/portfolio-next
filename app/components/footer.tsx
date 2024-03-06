@@ -1,26 +1,24 @@
 
-
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-black h-[100vh] lg:h-[40vh] mt-40 p-20 flex'>
+    <div className='w-full bg-black h-[120vh] lg:h-[40vh] mt-40 p-20 flex'>
         <div className="w-full lg:w-5/6 m-auto flex justify-center flex-col lg:flex-row gap-20 lg:gap-0">
 
-          <div className="flex justify-center lg:items-start lg:justify-start w-full lg:w-1/3 gap-20 ">
-            <div className="flex items-start justify-start flex-col gap-5">
+          <div className="flex justify-center flex-col lg:flex-row items-center lg:items-start lg:justify-start w-full lg:w-1/3 gap-20 ">
+            <div className="flex items-center justify-center lg:items-start lg:justify-start flex-col  gap-5">
               <h1 className='text-white text-lg font-bold'>Navegação</h1>
-              <div className="flex items-start justify-start flex-col gap-2 text-slate-600 font-semibold text-base">
+              <div className="flex items-center justify-center lg:items-start lg:justify-start flex-col gap-2 text-slate-600 font-semibold text-base">
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="/" >Bem-vindo</Link>
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="/linguagens" >Linguagens</Link>
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="/projetos" >Projetos</Link>
               </div>
             </div>
-            <div className="flex items-start justify-start flex-col gap-5">
+            <div className="flex items-center justify-center lg:items-start lg:justify-start flex-col gap-5">
               <h1 className='text-white text-lg font-bold'>Redes Sociais</h1>
-              <div className="flex items-start justify-start flex-col gap-2 text-slate-600 font-semibold text-base ">
+              <div className="flex items-center justify-center lg:items-start lg:justify-start flex-col gap-2 text-slate-600 font-semibold text-base ">
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="https://github.com/matpitas" >Github</Link>
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="https://www.linkedin.com/in/matheus-pitas-baptista-1b2b73227/" >Linkedin</Link>
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="/projetos" >Twitter</Link>

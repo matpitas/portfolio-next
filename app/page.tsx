@@ -15,7 +15,7 @@ export default function Home() {
           Desenvolvedor Full-Stack.
         </h1>
       </div>
-      <p className="font-bold text-slate-500 text-sm text-center mt-10 md:mt-14">Caso queira me mandar uma mensagem, considere clicar no botão abaixo!</p>
+      <p className="font-bold text-slate-500 text-sm p-5 md:p-0 text-center mt-5 md:mt-14">Caso queira me mandar uma mensagem, considere clicar no botão abaixo!</p>
       <ContactButton />
       <div className="font-bold text-slate-600 text-lg mt-52 md:mt-72 flex flex-col items-center justify-center gap-5">
         Mais sobre mim

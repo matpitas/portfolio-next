@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div className="w-full flex items-center justify-center flex-col">
       <div className="w-full flex items-center justify-center flex-col mt-40 gap-2">
-        <h1 className="text-2xl md:text-6xl font-black text-slate-800">
+        <h1 className="text-xl md:text-6xl font-black text-slate-800">
           Olá, sou Matheus Pitas Baptista
         </h1>
-        <h1 className="bg-gradient-to-r from-emerald-800 via-emerald-200 to-emerald-800 bg-clip-text text-transparent text-xl md:text-6xl font-bold">
+        <h1 className="bg-gradient-to-r from-emerald-800 via-emerald-200 to-emerald-800 bg-clip-text text-transparent text-lg md:text-6xl font-bold">
           Desenvolvedor Full-Stack.
         </h1>
       </div>
@@ -26,7 +26,7 @@ export default function Home() {
         Hobbies e Paixões
         <ChevronsDown className="size-5" />
       </div>
-      <div className="w-2/3 mt-20 flex flex-wrap gap-10">
+      <div className="w-5/6 md:w-2/3 mt-20 flex flex-wrap gap-10">
         <Hobbies logo={<Coffee className="size-5"/>} title="Café" description="A minha bebida favorita é café!" />
         <Hobbies logo={<Dumbbell className="size-5"/>} title="Academia" description="Um dos meus melhores passa-tempos é praticar musculação." />
         <Hobbies logo={<Disc3 className="size-5"/>} title="Música" description="Meus estilos de música favoritos são: Rock, Pop e Warm Fuzzy Songs." />

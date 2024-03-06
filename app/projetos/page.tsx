@@ -22,21 +22,23 @@ async function getRepositories () {
 async function page ()  { 
 
   const ReposList: ReposListProps[] = await getRepositories()
-
+  
   return (
-    <div className='flex flex-col items-center'>
-      <div className="flex items-center justify-center gap-5 mt-20">
-        <Link className='size-5'/>
-        <h1 className='text-lg md:text-lg font-black text-slate-800'>Consulta feita na API do GitHub</h1>
-      </div>
-      <div className='flex flex-wrap gap-10 mt-10 w-5/6 m-auto'>
-          {
-            ReposList.map((repo) => (
-              <Repositories data={repo} key={repo.name}/>
-            ))
-          }
+    <>
+      <div className='flex flex-col items-center'>
+        <div className="flex items-center justify-center gap-5 mt-20">
+          <Link className='size-5'/>
+          <h1 className='text-lg md:text-lg font-black text-slate-800'>Consulta feita na API do GitHub</h1>
         </div>
-    </div>
+        <div className='flex flex-wrap gap-10 mt-10 p-5 md:w-5/6 md:m-auto'>
+            {
+              ReposList && ReposList?.map((repo) => (
+                <Repositories data={repo} key={repo.name}/>
+              ))
+            }
+          </div>
+      </div>
+    </>
   )
 }
 

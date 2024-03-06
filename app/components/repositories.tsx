@@ -17,7 +17,7 @@ interface ReposListProps {
 function Repositories ({ data }: ReposListProps) {
 
   return (
-    <div className="border-2 flex flex-1 min-w-96 flex-col gap-8 p-10 rounded-md group relative hover:border-slate-300" >
+    <div className="border-2 flex flex-1 min-w-80 flex-col gap-8 p-10 rounded-md group relative hover:border-slate-300" >
         <div className=" flex flex-col items-start gap-2  ">
             <h1 className='font-bold text-2xl group-hover:opacity-20'>{data.name ? data.name : 'Não definido' }</h1>
             <p className='text-lg text-slate-400 group-hover:opacity-20 font-semibold'>{data.description ? data.description : 'Não definido'}</p>

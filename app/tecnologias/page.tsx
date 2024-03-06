@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className='w-5/6 m-auto'>
         <div className="w-full flex items-center justify-center flex-col gap-5">
-          <h1 className='text-lg md:text-2xl font-black text-slate-800 mt-20'>Essas são as tecnologias que tenho conhecimento</h1>
+          <h1 className='text-center text-lg md:text-2xl font-black text-slate-800 mt-20'>Essas são as tecnologias que tenho conhecimento</h1>
           <ChevronsDown className='size-6' />
         </div>
         <div className="mt-16 flex flex-wrap gap-5">

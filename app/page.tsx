@@ -12,20 +12,20 @@ export default function Home() {
           Olá, sou Matheus Pitas Baptista
         </h1>
         <h1 className="bg-gradient-to-r from-emerald-800 via-emerald-200 to-emerald-800 bg-clip-text text-transparent text-xl md:text-6xl font-bold">
-          Desevolvedor Full-Stack.
+          Desenvolvedor Full-Stack.
         </h1>
       </div>
       <p className="font-bold text-slate-500 text-sm text-center mt-10 md:mt-14">Caso queira me mandar uma mensagem, considere clicar no botão abaixo!</p>
       <ContactButton />
-      <h1 className="font-bold text-slate-600 text-lg mt-52 md:mt-72 flex flex-col items-center justify-center gap-5">
+      <div className="font-bold text-slate-600 text-lg mt-52 md:mt-72 flex flex-col items-center justify-center gap-5">
         Mais sobre mim
         <ChevronsDown className="size-5" />
-      </h1>
+      </div>
       <AboutMe />
-      <h1 className="font-bold text-slate-600 text-lg mt-32 md:mt-52 flex flex-col items-center justify-center gap-5">
+      <div className="font-bold text-slate-600 text-lg mt-32 md:mt-52 flex flex-col items-center justify-center gap-5">
         Hobbies e Paixões
         <ChevronsDown className="size-5" />
-      </h1>
+      </div>
       <div className="w-2/3 mt-20 flex flex-wrap gap-10">
         <Hobbies logo={<Coffee className="size-5"/>} title="Café" description="A minha bebida favorita é café!" />
         <Hobbies logo={<Dumbbell className="size-5"/>} title="Academia" description="Um dos meus melhores passa-tempos é praticar musculação." />

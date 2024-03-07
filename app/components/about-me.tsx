@@ -20,7 +20,7 @@ const AboutMe = () => {
                 <div className="flex flex-1 items-center justify-between gap-5 md:pl-10">
                     <LinkedButtons link="https://github.com/matpitas" logo={<Github className='size-6' />} />
                     <LinkedButtons link="https://www.linkedin.com/in/matheus-pitas-baptista-1b2b73227/" logo={<Linkedin className='size-6' />} />
-                    <LinkedButtons link="/" logo={<Twitter className='size-6' />} />
+                    <LinkedButtons link="https://twitter.com/dev_pitzas" logo={<Twitter className='size-6' />} />
                     <LinkedButtons link="mailto:pitas.matheus4@gmail.com" logo={<Mail className='size-6' />} />
                     <LinkedButtons link="https://api.whatsapp.com/send?phone=14991111982" logo={<Phone className='size-6' />} />
                 </div>

@@ -12,7 +12,7 @@ const Footer = () => {
               <h1 className='text-white text-lg font-bold'>Navegação</h1>
               <div className="flex items-center justify-center lg:items-start lg:justify-start flex-col gap-2 text-slate-600 font-semibold text-base">
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="/" >Bem-vindo</Link>
-                <Link target="_blank" className='hover:underline hover:text-slate-400' href="/tecnologias" >Linguagens</Link>
+                <Link target="_blank" className='hover:underline hover:text-slate-400' href="/tecnologias" >Tecnologias</Link>
                 <Link target="_blank" className='hover:underline hover:text-slate-400' href="/projetos" >Projetos</Link>
               </div>
             </div>
